@@ -21,6 +21,7 @@ Respeito às boas práticas de código: Procure manter o código limpo e organiz
 
 - Leia com atenção os exercicios dentro da pasta enunciados 
 - Crie a lógica de cada exercicio dentro da pasta implementacao
-- Para rodar um exercicio especifico dentro da pasta implementacao é necessário usar o comando ``npm run start -- nome-do-arquivo.ts``
+- Para rodar todos os testes use o comando ``npm run test``
+- Para rodar um exercício específico dentro da pasta , é necessário usar o comando ``npm run start -- nome-do-arquivo.ts``
 
 
