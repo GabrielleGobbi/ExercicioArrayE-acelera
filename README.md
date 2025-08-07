@@ -24,4 +24,10 @@ Respeito às boas práticas de código: Procure manter o código limpo e organiz
 - Para rodar todos os testes use o comando ``npm run test``
 - Para rodar um exercício específico dentro da pasta , é necessário usar o comando ``npm run start -- nome-do-arquivo.ts``
 
+## Observações
+
+1) Os arquivos 1-evensAndOddsData.ts, 2-arraySumData.ts, 3-productsData.ts e 4-candidateData.ts, criados na pasta tests, já contém os arrays prontos para serem utilizados. Caso ache necessário, poderá importar para resolver as respectivas questões.
+2) Para ser considerado aprovado o candidato tem que atingir uma pontuação acima de 70 pontos.
+
+
 
