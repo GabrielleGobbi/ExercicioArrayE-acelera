@@ -1,0 +1,16 @@
+type Product = {
+    name: string;
+    cost: number;
+    salePrice: number;
+  };
+  
+  const products: Product[] = [
+    { name: "Product A", cost: 50.00, salePrice: 55.00 },  
+    { name: "Product B", cost: 100.00, salePrice: 105.00 },
+    { name: "Product C", cost: 80.00, salePrice: 110.00 }, 
+    { name: "Product D", cost: 40.00, salePrice: 52.00 },   
+    { name: "Product E", cost: 30.00, salePrice: 33.00 }  
+  ];
+  
+  export { products, type Product };
+  
