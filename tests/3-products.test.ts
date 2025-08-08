@@ -2,7 +2,7 @@ import { productsAndProfits } from '../src/implementacao/3-productsAndProfits';
 import { products } from './3-productsData';
 
 describe('Exercicio 3 : Produtos e lucros', () => {
-    test('should calculate profits correctly', () => {
+    test('deve calcular os lucros corretamente', () => {
         const result = productsAndProfits(products);
         
         expect(result.lucroMenor10).toBe(1);
@@ -10,7 +10,7 @@ describe('Exercicio 3 : Produtos e lucros', () => {
         expect(result.lucroMaior30).toBe(1); 
     });
 
-    test('should work with empty array', () => {
+    test('deve funcionar com o array vazio', () => {
         const result = productsAndProfits([]);
         
         expect(result.lucroMenor10).toBe(0);
@@ -18,7 +18,7 @@ describe('Exercicio 3 : Produtos e lucros', () => {
         expect(result.lucroMaior30).toBe(0);
     });
 
-    test('should work with single product', () => {
+    test('deve funcionar com produto único', () => {
         const singleProduct = [{ name: "Test", cost: 100, salePrice: 120 }];
         const result = productsAndProfits(singleProduct);
         

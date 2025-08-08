@@ -1,7 +1,7 @@
 import { listApproved } from "../src/implementacao/4-contestScore";
 
 describe("listarAprovados", () => {
-  it("deve retornar apenas participantes com mais de 70 pontos", () => {
+  test("deve retornar apenas participantes com mais de 70 pontos", () => {
     const resultado = listApproved();
 
     expect(resultado).toEqual([
