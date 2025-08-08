@@ -1,3 +1,4 @@
+/** @type {import('ts-jest').JestConfigWithTsJest} */
 module.exports = {
     preset: 'ts-jest',
     testEnvironment: 'node',
@@ -8,5 +9,6 @@ module.exports = {
     },
     testMatch: ['**/tests/**/*.test.ts'],
     testPathIgnorePatterns: ['/node_modules/'],
-
+    reporters: ["./custom-test-results-processor"],
+    cache: false,
 };
