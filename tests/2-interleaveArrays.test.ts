@@ -1,8 +1,8 @@
 import { interleaveArrays } from '../src/implementacao/2-interleaveArrays';
-import { vector1, vector2, interleavedVector } from './2-arraySumData';
+import data from '../src/db/2-interleaveArraysData.json';
 
 describe('Exercise 2: interleaveArrays', () => {
   test('deve intercalar corretamente os dois vetores', () => {
-    expect(interleaveArrays(vector1, vector2)).toEqual(interleavedVector);
+    expect(interleaveArrays(data.vector1, data.vector2)).toEqual(data.interleavedVector);
   });
 });

@@ -1,0 +1,4 @@
+{
+  "originalArray": [1, 2, 3, 4, 5],
+  "transformedArray": [3, 4, 9, 8, 15]
+}
