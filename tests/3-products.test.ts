@@ -1,9 +1,9 @@
 import { productsAndProfits } from '../src/implementacao/3-productsAndProfits';
-import { products } from './3-productsData';
+import data from '../src/db/3-productsData.json';
 
 describe('Exercicio 3 : Produtos e lucros', () => {
     test('deve calcular os lucros corretamente', () => {
-        const result = productsAndProfits(products);
+        const result = productsAndProfits(data.products);
         
         expect(result.lucroMenor10).toBe(1);
         expect(result.lucroEntre10e30).toBe(3); 
